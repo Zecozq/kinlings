@@ -1,0 +1,12 @@
+[package]
+name = "kinlings-browser"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+description = "The same rules the contract runs, compiled for the browser: shop tooltips and fast-forward."
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+kinlings-core = { path = "../core", features = ["sim"] }

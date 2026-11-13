@@ -1,0 +1,14 @@
+target/
+target-host/
+node_modules/
+web/dist/
+*.log
+.env
+.env.*
+playtest-shots/
+*.mp4.tmp
+.claude/
+# Private: holds draft submission details.
+docs/SUBMISSION.md
+# The full-quality film for uploading to X (about 280 MB); the repository keeps a lighter copy.
+docs/kinlings-demo-hq.mp4

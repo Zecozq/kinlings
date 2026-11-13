@@ -1,0 +1,15 @@
+[package]
+name = "kinlings-core"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+description = "The rules of Kinlings. Shared by the on-chain contract and the browser."
+
+[features]
+default = []
+# Plain-English reasoning for shop tooltips. Only the browser needs it.
+explain = []
+# The fast-forward simulator. Only the browser and the balance tests need it.
+sim = ["explain"]
+
+[dependencies]

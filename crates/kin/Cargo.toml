@@ -1,0 +1,12 @@
+[package]
+name = "kinlings-kin"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+description = "The tiny contract every Kinling account runs, shared as one NEP-591 Global Contract."
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+near-sys = "0.4.1"
